@@ -1,0 +1,158 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "clusterName": {
+      "value": ""
+    },
+    "localAdminUserName": {
+      "value": ""
+    },
+    "localAdminPassword": {
+      "value": ""
+    },
+    "localAdmins": {
+      "value": ""
+    },
+    "DNSName": {
+      "value": ""
+    },
+    "CiOwner": {
+      "value": ""
+    },
+    "CiAnalystGroup": {
+      "value": ""
+    },
+    "appID": {
+      "value": ""
+    },
+    "orgID": {
+      "value": ""
+    },
+    "vmStorageAccountName": {
+      "value": ""
+    },
+    "nt0applicationStartPort": {
+      "value": 20000
+    },
+    "nt0applicationEndPort": {
+      "value": 30000
+    },
+    "nt0ephemeralStartPort": {
+      "value": 49152
+    },
+    "nt0ephemeralEndPort": {
+      "value": 65534
+    },
+    "nt0fabricTcpGatewayPort": {
+      "value": 19000
+    },
+    "nt0fabricHttpGatewayPort": {
+      "value": 19080
+    },
+    "nt1applicationStartPort": {
+      "value": 30000
+    },
+    "nt1applicationEndPort": {
+      "value": 40000
+    },
+    "nt1ephemeralStartPort": {
+      "value": 49152
+    },
+    "nt1ephemeralEndPort": {
+      "value": 65534
+    },
+    "nt1fabricTcpGatewayPort": {
+      "value": 19000
+    },
+    "nt1fabricHttpGatewayPort": {
+      "value": 19080
+    },
+    "publicIPAddressName": {
+      "value": "PublicIP-VM"
+    },
+    "publicIPAddressType": {
+      "value": "Dynamic"
+    },
+    "vmStorageAccountContainerName": {
+      "value": "vhds"
+    },
+
+    "lbName": {
+      "value": "Loadbalancer"
+    },
+    "lbIPName": {
+      "value": "PublicIP-LB-FE"
+    },
+    "overProvision": {
+      "value": "false"
+    },
+    "ImagePublisher": {
+      "value": "MicrosoftWindowsServer"
+    },
+    "ImageOffer": {
+      "value": "WindowsServer"
+    },
+    "Sku": {
+      "value": "2012-R2-Datacenter"
+    },
+    "ImageVersion": {
+      "value": "latest"
+    },
+    "loadBalancedAppPort1": {
+      "value": 80
+    },
+    "loadBalancedAppPort2": {
+      "value": 8505
+    },
+    "loadBalancedAppPort3": {
+      "value": 8506
+    },
+    "loadBalancedwrkPort4": {
+      "value": 8080
+    },
+    "storageAccountType": {
+      "value": "Standard_LRS"
+    },
+    "supportLogStorageAccountType": {
+      "value": "Standard_LRS"
+    },
+
+    "applicationDiagnosticsStorageAccountType": {
+      "value": "Standard_LRS"
+    },
+    "vmNodeType0Name": {
+      "value": "APINode"
+    },
+    "vmNodeType0Size": {
+      "value": "Standard_D2"
+    },
+    "vmNodeType0Count": {
+      "value": 5
+    },
+    "vmNodeType2Name": {
+      "value": "ActorNode"
+    },
+    "vmNodeType2Size": {
+      "value": "Standard_D4"
+    },
+    "vmNodeType1Count": {
+      "value": 5
+    },
+    "certificateThumbprint": {
+      "value": ""
+    },
+    "certificateStoreValue": {
+      "value": ""
+    },
+    "sourceVaultvalue": {
+      "value": ""
+    },
+    "sourceVaultSecret": {
+      "value": ""
+    },
+    "sourceVaultSecret2": {
+      "value": ""
+    }
+  }
+}
