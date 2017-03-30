@@ -1,0 +1,1 @@
+write-output "This is a placeholder for delete RGs"
