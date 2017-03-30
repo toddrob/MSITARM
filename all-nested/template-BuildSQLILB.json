@@ -70,7 +70,7 @@
   },
   "variables": {
 
-    "branch": "develop",
+     "branch": "master",
     "scriptsURL": "[concat('https://raw.githubusercontent.com/Microsoft/MSITARM/',variables('branch'),'/all-scripts/')]",
 
     "vmILBExtensionName": "ConfigureILB",
